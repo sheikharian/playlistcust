@@ -2,13 +2,21 @@
 <html>
     <head>
         <title>My Playlist</title>
+        <link rel="stylesheet" href="PlaylistCSS.css" />
+        <link href="https://fonts.googleapis.com/css?family=Cabin|Crimson+Text" rel="stylesheet">
     </head>
     <body>
-        <div id="title">
-            <h1>My Playlist</h1>
+        <div id="header">
+            <h1 id="title">My Playlist</h1>
+            <p id="subtitle">Save and Add your tracks here</p>
         </div>
         <div id="create">
-            
+            <input id="Song" class="new" placeholder="Song Name">
+            <input id="Artist" class="new" placeholder="Artist's Name">
+            <input id="Image" class="new" placeholder="Image Link">
+            <input id="Video" class="new" placeholder="Song Link">
+            <button id="add">Submit</button>
         </div>
+        <div id="list"></div>
     </body>
 </html>

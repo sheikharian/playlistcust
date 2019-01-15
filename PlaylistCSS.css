@@ -1,0 +1,32 @@
+body{
+    background-image:url("https://cdn2.hercampus.com/hero-images/2018/04/09/beachh.jpg");
+}
+#title{
+    display:flex;
+    justify-content:center;
+    font-size:330%;
+    font-family: 'Crimson Text', serif;
+    letter-spacing:2.5px;
+}
+#subtitle{
+    display:flex;
+    justify-content:center;
+    font-family: 'Cabin', sans-serif;
+    font-size:120%;
+}
+#create{
+    display:flex;
+    justify-content:center;
+}
+.new{
+    font-size:15px;
+    margin-top:20px;
+    margin-left:10px;
+    margin-right:10px;
+}
+#add{
+    margin-top:10px;
+    font-size:17px;
+    background-color:#FBED0D;
+    border-radius:15%;
+}
