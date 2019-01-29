@@ -23,10 +23,63 @@ body{
     margin-top:20px;
     margin-left:10px;
     margin-right:10px;
+    background-color:#64615B;
+    color:white;
+}
+::placeholder {
+  color:white;
+  opacity: 1;
 }
 #add{
     margin-top:10px;
     font-size:17px;
     background-color:#FBED0D;
     border-radius:15%;
+}
+.name{
+    margin-top:30px;
+    height:75px;
+    width:300px;
+    background-color:#64615B;
+    font-family: 'Crimson Text', serif;
+    font-size:50px;
+    display:flex;
+    justify-content:center;
+}
+.artist{
+    height:50px;
+    width:300px;
+    background-color:#64615B;
+    font-family: 'Crimson Text', serif;
+    font-size:25px;
+    display:flex;
+    justify-content:center;
+}
+.image{
+    height:300px;
+    width:300px;
+    background-color:#64615B;
+    display:flex;
+    justify-content:center;
+}
+img{
+    width:75%;
+    height:75%;
+}
+.video{
+    height:50px;
+    width:300px;
+    background-color:#64615B;
+    font-family: 'Crimson Text', serif;
+    font-size:20px;
+    display:flex;
+    justify-content:center;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Cabin', sans-serif;
+}
+a:hover{
+    text-decoration: underline;
 }
