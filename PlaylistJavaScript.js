@@ -14,7 +14,7 @@ var songlinks = ["https://www.youtube.com/watch?v=7nJRGARveVc"];
 
 
 $("#add").click(function() {
-     $("#songlist").html("");
+    $("#songlist").html("");
     $("#artistlist").html("");
     $("#imagelist").html("");
     $("#videolist").html("");
@@ -25,7 +25,8 @@ $("#add").click(function() {
     loadsongs();
 });
 loadsongs();
-function loadsongs (){
+
+function loadsongs() {
     songnames.forEach(function(name) {
         $("#songlist").append("<div class='name'>" + name + "</div>");
     });
@@ -33,10 +34,10 @@ function loadsongs (){
         $("#artistlist").append("<div class='artist'>" + artist + "</div>");
     });
     imagelinks.forEach(function(image) {
-        $("#imagelist").append("<div class='image'>" + "<img src='"+ image + "'>" + "</div>");
+        $("#imagelist").append("<div class='image'>" + "<img src='" + image + "'>" + "</div>");
     });
     songlinks.forEach(function(song) {
-        $("#videolist").append("<div class='video'>" + "<a href='" + song + "'>" + "Song Link</a>" + "</div>");
+        $("#videolist").append("<div class='video'>" + "<a target='_blank' href='" + song + "'>" + "Song Link</a>" + "</div>");
     });
-    console.log(songnames, artistnames, imagelinks, songlinks); 
+    console.log(songnames, artistnames, imagelinks, songlinks);
 }

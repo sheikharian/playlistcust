@@ -36,7 +36,25 @@ body{
     background-color:#FBED0D;
     border-radius:15%;
 }
-.cart{
+#songlist{
+    display:flex;
+    flex-direction: row;
+    margin-left:10px;
+}
+#artistlist{
+    display:flex;
+    flex-direction:row;
+    margin-left:10px;
+}
+#imagelist{
+    display:flex;
+    flex-direction:row;
+    margin-left:10px;
+}
+#videolist{
+    display:flex;
+    flex-direction:row;
+    margin-left:10px;
 }
 .name{
     margin-top:30px;
